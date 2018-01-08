@@ -1,0 +1,8 @@
+body {
+	background: url("../images/bg.png") repeat;
+}
+
+h1 {
+	font-family: 'Nova Mono', monospace;
+	color: #80ffff;
+}
