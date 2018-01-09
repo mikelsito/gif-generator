@@ -3,6 +3,14 @@ body {
 }
 
 h1 {
-	font-family: 'Nova Mono', monospace;
+	font-family: 'Rubik Mono One', sans-serif;
 	color: #80ffff;
+}
+
+.images {
+	margin-top: 3em;
+}
+
+img {
+	margin:.5em;
 }
