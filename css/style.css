@@ -2,6 +2,10 @@ body {
 	background: url("../images/bg.png") repeat;
 }
 
+.main-body {
+	padding:2em;
+}
+
 .title {
 	font-family: 'Monoton', cursive;
 	color:#ffff33;
@@ -27,3 +31,24 @@ img {
 	color:black;
 	margin-bottom:.1em;
 }
+
+@media screen and (max-width: 805px) {
+	.title{
+		font-size:6em;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.title{
+		font-size:3.5em;
+	}
+	.title2 {
+	color: #80ffff;
+	font-size: 1em;
+}
+}
+
+
+
+
+

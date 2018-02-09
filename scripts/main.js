@@ -42,7 +42,7 @@ $("body").on("click", ".generate", function(){
       	for (i=1;i<=10;i++) {
       		var image = $("<img>");
       		image.attr('class', 'gif');
-      		image.attr('src', results[i].images.fixed_height_still.url);
+      		image.attr('src', results[i].images.fixed_height.url);
       		image.attr('data-still', results[i].images.fixed_height_still.url);
       		image.attr('data-gif', results[i].images.fixed_height.url);
       		$(".images").prepend(image);
@@ -53,10 +53,10 @@ $("body").on("click", ".generate", function(){
 
 // Toggle Between Still And Moving gifs
 $("body").on("click", ".gif", function(){
-		if ($(this).attr("src") === $(this).attr("data-still")) {
-			$(this).attr("src", $(this).attr("data-gif"));
-		} else {
+		if ($(this).attr("src") === $(this).attr("data-gif")) {
 			$(this).attr("src", $(this).attr("data-still"));
+		} else {
+			$(this).attr("src", $(this).attr("data-gif"));
 		}		
 	});
 

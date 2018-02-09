@@ -2,4 +2,6 @@
 Practicing with the giphy API
 
 Viewable at:
-https://mikelsito.github.io/giphy-excercise/
+https://mikelsito.github.io/gif-generator/
+
+
